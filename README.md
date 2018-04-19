@@ -7,7 +7,7 @@ Søgning i ArrayLists p. 696
 
 Brug af ArrayLists med for each
 
-`for (E s : list) // list er ArrayList<E>
+`for (E s : list) // list er ArrayList<E>`
 
 ## Opgaver
 Exercises p. 737

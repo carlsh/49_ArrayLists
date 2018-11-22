@@ -1,4 +1,4 @@
-# 33_ArrayLists
+# 49_ArrayLists
 Brug af `ArrayList<>` med diverse metoder p. 694
 
 `for (int i=0;i<list.size();i++)`

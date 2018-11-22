@@ -1,13 +1,29 @@
 # 49_ArrayLists
-Brug af `ArrayList<>` med diverse metoder p. 694
 
+Kanban boards skal opdateres.
+
+Brug af `ArrayList<>` med diverse metoder p. 694
+`ArrayList<E> minArrayList = new ArrayList<E>()`
+E er elementtypen, f.eks. String, Integer eller en klasse
+
+Nyttige metoder:
+`
+.size()
+.get(i);
+.set(i, E);
+.remove(i);
+.indexOf(E); //finder plads i arraylisten med E`
+
+Normal iteration
 `for (int i=0;i<list.size();i++)`
 
-Søgning i ArrayLists p. 696
+Kan erstattes med for each
+`for (E s : minArrayList)`
 
-Brug af ArrayLists med for each
-
-`for (E s : list) // list er ArrayList<E>`
+Når der fjernes og tilføjes virker det ikke altid som forventet.
+Skal der tilføjes/fjernes hvert andet, så kør for løkken baglæns.
+Ex. p. 701 - 702.
 
 ## Opgaver
 Exercises p. 737
+2, 3, 6, 8

@@ -32,6 +32,7 @@ public class ArrayListDemo{
       al.set(index, "Weekend!");
       System.out.println(al);
       
+      //ombyt tal parvis
       //erklær temp variabel e.g. String temp;
       for (int j=0;j<al.size();j +=2){
          //ombyt plads j med plads j+1

@@ -86,7 +86,7 @@ public class MinArrayList
       int n = ial.get(2);
       
       System.out.println("sammenligning udenfor arraylist " + (j==n));
-      //sammenlign med .valueOf()
+      //sammenlign med .intValue()
       System.out.println(ial.get(2).intValue());
       System.out.println(ial.get(3).intValue());
       if (ial.get(2).intValue() == ial.get(3).intValue())

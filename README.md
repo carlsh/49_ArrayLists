@@ -4,13 +4,14 @@ Kanban boards skal opdateres.
 
 Brug af `ArrayList<>` med diverse metoder p. 694
 
-`ArrayList<E> minArrayList = new ArrayList<E>()`
+`ArrayList<E> minArrayList = new ArrayList<E>();`
 
 E er elementtypen, f.eks. String, Integer eller en klasse
 
 Nyttige metoder:
 ``````
-.size()
+.size();
+.add(i);
 .get(i);
 .set(i, E);
 .remove(i);
